@@ -29,7 +29,6 @@ PRODUCT_PACKAGES := \
     Camera \
     Superuser \
     Superuser.apk \
-#    Google-tv-remote \
     su
 
 # Inherit from those products. Most specific first.
