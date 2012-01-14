@@ -42,5 +42,13 @@ $(call inherit-product, device/samsung/maguro/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_maguro
 PRODUCT_DEVICE := maguro
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Maguro
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Galaxy Nexus
+PRODUCT_MANUFACTURER := Samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=yakju \
+	BUILD_ID=IML74K \
+	BUILD_DISPLAY_ID=IML74K \
+	BUILD_FINGERPRINT="google/yakju/maguro:4.0.1/ITL41F/228551:user/release-keys" \
+	PRIVATE_BUILD_DESC="yakju-user 4.0.1 ITL41F 228551 release-keys"
